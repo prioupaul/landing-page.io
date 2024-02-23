@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.hero-section {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.jerseys-section {
+    margin-top: 30px;
+}
+
+.section-title {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.jersey {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jersey img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-text {
+    color: #888;
+}
